@@ -1,0 +1,12 @@
+[
+    {"id": 1, "name": "Kaos Polos Hitam", "price": 100000, "image": "baju1.jpg"},
+    {"id": 2, "name": "Kaos Polos Putih", "price": 100000, "image": "baju2.jpg"},
+    {"id": 3, "name": "Kemeja Denim", "price": 200000, "image": "baju3.jpg"},
+    {"id": 4, "name": "Jaket Hoodie", "price": 250000, "image": "baju4.jpg"},
+    {"id": 5, "name": "Sweater Rajut", "price": 180000, "image": "baju5.jpg"},
+    {"id": 6, "name": "Kaos Oversize", "price": 120000, "image": "baju6.jpg"},
+    {"id": 7, "name": "Jaket Bomber", "price": 300000, "image": "baju7.jpg"},
+    {"id": 8, "name": "Kemeja Flanel", "price": 190000, "image": "baju8.jpg"},
+    {"id": 9, "name": "Celana Chino", "price": 210000, "image": "baju9.jpg"},
+    {"id": 10, "name": "Celana Jeans", "price": 250000, "image": "baju10.jpg"}
+]

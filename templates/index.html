@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Toko Baju</title>
+</head>
+<body>
+    <h1>Daftar Produk</h1>
+    <ul>
+        {% for product in products %}
+        <li>
+            <img src="{{ url_for('static', filename=product.image) }}" width="100">
+            <p>{{ product.name }} - Rp{{ product.price }}</p>
+            <a href="{{ url_for('add_to_cart', product_id=product.id) }}">Tambah ke Keranjang</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('cart') }}">Lihat Keranjang</a>
+</body>
+</html>
